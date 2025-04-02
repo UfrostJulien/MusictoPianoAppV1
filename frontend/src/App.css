@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.App-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tab-panel {
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.error-message {
+  color: #f44336;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #ffebee;
+  border-radius: 4px;
+}
+
+.success-message {
+  color: #4caf50;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #e8f5e9;
+  border-radius: 4px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
